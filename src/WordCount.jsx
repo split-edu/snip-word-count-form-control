@@ -9,7 +9,7 @@ function WordCount() {
   }
 
   useEffect(() => {
-    setWc(message.length);
+    setWc(message.split(' ').filter(s => !!s).length);
   }, [message])
   return (
     <div>

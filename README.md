@@ -2,6 +2,8 @@
 
 Primjer ilustrira primjenu React kontrole forme.
 
+Kontrola je textarea s brojačem riječi.
+
 ## Prikaz
 
 <img src="./screenshot/preview.png">
